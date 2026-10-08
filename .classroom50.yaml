@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "cprog"
+assignment: "06h-functions"
+owner:
+  username: "goekce"
+  id: 18174744
+  accepted_at: "2026-10-08T22:03:13Z"
+source:
+  owner: "dtucprog"
+  owner_id: 316954301
+  repo: "h-functions"
+  branch: "main"
