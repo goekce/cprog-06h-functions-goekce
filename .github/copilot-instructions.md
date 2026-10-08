@@ -1,0 +1,11 @@
+
+- [ ] Follows the interaction example in the task and passes the autograder tests.
+- Code is easy to follow, e.g.:
+  - [ ] no code duplication
+  - [ ] no deeply nested logic where a simpler structure works
+- [ ] The code is commented where the *why* is not obvious.
+- Variable names
+  - [ ] are meaningful
+  - [ ] follow one consistent convention: {term}`camel case` or {term}`snake case`
+- [ ] Numbers with a special meaning have a name.
+- [ ] (recommended) Only the programming structures introduced so far are used.[^using-only]
