@@ -1,0 +1,6 @@
+# The purpose of this file is to keep this directory, because `task.json` and `clang` require the folder to exist.
+
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
