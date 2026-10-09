@@ -45,7 +45,7 @@ int multiplication_question(enum Difficulty difficulty) {
   return a * b;
 }
 
-bool entered_is_correct(int expected, int entered) {
+bool enteredIsCorrect(int expected, int entered) {
   if (expected != entered) {
     puts("No, please try again.");
     return false;
@@ -68,8 +68,10 @@ enum Difficulty prompt_difficulty() {
   enum Difficulty difficulty;
   scanf("%d", &difficulty);
 
-  while (!difficulty_is_valid(difficulty))
+  while (!difficulty_is_valid(difficulty)) {
     printf("Invalid input. Enter 1-4: ");
+    scanf("%d", &difficulty);
+  }
 
   return difficulty;
 }
@@ -88,7 +90,7 @@ int main() {
     expected = multiplication_question(difficulty);
     do {
       scanf("%d", &entered);
-    } while (entered != -1 && !entered_is_correct(expected, entered));
+    } while (entered != -1 && !enteredIsCorrect(expected, entered));
     puts("");
   } while (entered != -1);
 
